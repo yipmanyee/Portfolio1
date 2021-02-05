@@ -6,12 +6,19 @@ h1, h2, h3 {
     font-family: "Pinyon Script", cursive;
 }
 
+h4{
+    size: 20;
+}
+
 h2 {
     color: #3046C5;
 }
 
 header h1, h2 {
     color: #DC143C;
+}
+p{
+    text-align: justify;
 }
 
 footer {
@@ -39,3 +46,7 @@ footer {
 .ul li {
     color: #000000;
 }
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
