@@ -1,0 +1,41 @@
+body {
+    font-family: "Lora", serif;
+}
+
+h1, h2, h3 {
+    font-family: "Pinyon Script", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h1, h2 {
+    color: #DC143C;
+}
+
+footer {
+    background-image: linear-gradient(#fc2e2e, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: #ffffff
+    color #ffffff;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar{
+    background-color: #fc2e2e;
+}
+
+.ul li {
+    color: #000000;
+}
