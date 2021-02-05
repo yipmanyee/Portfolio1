@@ -92,17 +92,17 @@
 
                     <div role="tabpanel" class="tab-pane fade" id="sushisashimi">
                         <h3>Sushi & Sashimi Entrees</h3>
-                        <p>San Shoku Roll<small> - Eight pieces of California Roll, six pieces of Tuna Roll, and six pieces of Cucumber Roll</small></p>
-                        <p>Nami<small> - Seven pieces of assorted of nigiri, three pieces of Tuna roll, and three pieces of cucumber roll</small></p>
+                        <p>San Shoku Roll<small> - 8 pieces of California Roll, 6 pieces of Tuna Roll, and 6 pieces of Cucumber Roll</small></p>
+                        <p>Nami<small> - 7 pieces of assorted of nigiri, three pieces of Tuna roll, and 3 pieces of cucumber roll</small></p>
                         <p>Jyo<small> - 8 pieces of assorted of nigiri, 3 pieces of tuna roll and cucumber roll, and 4 pieces of  California roll.</small></p>
-                        <p>Sashimi Entree<small> - Chef’s select choice of assorted sashimi, served with a side of  steamed rice.</small></p>
+                        <p>Sashimi Entree<small> - Chef’s select choice of assorted sashimi, served with a side of steamed rice.</small></p>
                         <p>Sushi & Sashimi Entree<small> - 5 pieces of assorted of nigiri, 4 pieces of California roll, 3 pieces of tuna roll, and Chef’s choice of assorted sashimi</small></p>
                         <p>Chirashi Zushi<small> - Chef’s choice of assorted sashimi placed on a bed of sushi rice.</small></p>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="sushiroll">
                         <h3>Sushi Roll</h3>
-                        <p>Rainbow Roll<small> - A”Krab” roll wrapped with Chef’s choice of colorful  fish.</small></p>
+                        <p>Rainbow Roll<small> - A ”Krab” roll wrapped with Chef’s choice of colorful fish.</small></p>
                         <p>Hokkai Roll<small> - Salmon, Salmon roe, Albacore tuna and radish sprouts</small></p>
                         <p>Orange Roll<small> -California roll covered with orange fish roe.</small></p>
                         <p>Tekka Maki<small> - Fresh tuna in a roll</small></p>
@@ -149,7 +149,12 @@
 
             </div>     
                 <div class="col-6">
-                <img src="img/Sushi Platter.jfif"class="img-fluid" alt="Sushi Platter" /> 
+                <img class="collapse" id="app" src="img/Tempura Appetizer.jfif"class="img-fluid" alt="Tempura Appetizer" /> 
+                <img class="collapse" id="sushir" src="img/Platter 2.jpg" class="img-fluid" alt="Sushi Platter" />
+                <img class="collapse" id="sushis" src="img/Chirashi Zushi.jfif" class="img-fluid" alt="Chirashi Sushi" />
+                <img class="collapse" id="nigi" src="img/Salmon Nigiri.jfif" class="img-fluid" alt="Salmon Nigiri" />
+                <img class="collapse" id="lch" src="img/Nabeyaki Udon.jfif" class="img-fluid" alt="Nabeyaki Udon" />
+                <img class="collapse" id="dnr" src="img/Dinner Combo 3.jfif" class="img-fluid" alt="Dinner Combo" />
                 </div>
         </div>        
     </div>
@@ -188,6 +193,29 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#appetizers").click(function(){
+                $("#app").collapse("show");
+                    });
+            $("#sushisashimi").click(function(){
+                $("#sushis").collapse("show");
+                    });
+            $("#sushiroll").click(function(){
+                $("#sushir").collapse("show");
+                    });
+            $("#nigiri").click(function(){
+                $("#nigi").collapse("show");
+                    });
+            $("#lunch").click(function(){
+                $("#lch").collapse("show");
+                    });
+            $("#dinner").click(function(){
+                $("#dnr").collapse("show");
+                    });        
+        });
+    </script>
+    
 
 </body>
 </html>
