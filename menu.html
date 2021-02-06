@@ -56,7 +56,7 @@
                     <a class="nav-link" href="#"><i class="fa fa-cutlery fa-lg"></i>Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-phone-square fa-lg"></i>Contact Us</a>
+                    <a class="nav-link" href="contactus.html"><i class="fa fa-phone-square fa-lg"></i>Contact Us</a>
                 </li>
             </ul>
         </div> 
@@ -88,6 +88,7 @@
                         <p>Yakitori<small> - Grilled chicken skewers brushed with teriyaki sauce</small></p>
                         <p>Agedashi Tofu<small> - Deep fried tofu with special  broth  topped  with grated daikon and scallion.</small></p>
                         <p>Soft Shell Crab<small> - Deep Fried Soft shell crab</small></p>
+                        <img id="app" src="img/Tempura Appetizer.jfif"class="img-fluid" alt="Tempura Appetizer" />
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="sushisashimi">
@@ -98,6 +99,7 @@
                         <p>Sashimi Entree<small> - Chef’s select choice of assorted sashimi, served with a side of steamed rice.</small></p>
                         <p>Sushi & Sashimi Entree<small> - 5 pieces of assorted of nigiri, 4 pieces of California roll, 3 pieces of tuna roll, and Chef’s choice of assorted sashimi</small></p>
                         <p>Chirashi Zushi<small> - Chef’s choice of assorted sashimi placed on a bed of sushi rice.</small></p>
+                        <img id="sushir" src="img/Platter 2.jpg" class="img-fluid" alt="Sushi Platter" />
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="sushiroll">
@@ -108,6 +110,7 @@
                         <p>Tekka Maki<small> - Fresh tuna in a roll</small></p>
                         <p>Spicy Tuna Roll<small> - Fresh tuna with jalapeños and special spicy sauce.</small></p>
                         <p>Veggie Tempura Roll<small> - Choose from crispy tempura sweet potato or carrot.</small></p>
+                        <img id="sushis" src="img/Chirashi Zushi.jfif" class="img-fluid" alt="Chirashi Sushi" />
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="nigiri">
@@ -122,6 +125,7 @@
                         <p>Crab (Kani)</p>
                         <p>Freshwater Eel (Unagi)</p>
                         <p>Egg (Tamago)</p>
+                        <img id="nigi" src="img/Salmon Nigiri.jfif" class="img-fluid" alt="Salmon Nigiri" />
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="lunch">
@@ -133,6 +137,7 @@
                         <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce</small> </p>
                         <p>Curry Udon<small> - with your choice of chicken or pork katsu</small></p>
                         <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice</small></p>
+                        <img id="lch" src="img/Nabeyaki Udon.jfif" class="img-fluid" alt="Nabeyaki Udon" />
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="dinner">
@@ -144,6 +149,7 @@
                         <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce</small> </p>
                         <p>Curry Rice<small> - with your choice of chicken or pork katsu</small></p>
                         <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice</small></p>
+                        <img id="dnr" src="img/Dinner Combo 3.jfif" class="img-fluid" alt="Dinner Combo" />
                     </div>
             </div>
 
@@ -173,16 +179,16 @@
                     <ul class="list-unstyled">
                         <li> <a href="index.html">Home</a></li>
                         <li> <a href="#">Menu</a></li>
-                        <li> <a href="#">Contact us</a></li>
+                        <li> <a href="contactus.html">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">   
-                <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-yelp"href="http://Yelp.com/">Yelp<i class="fa fa-yelp"></i></a>
-                </div> 
+                    <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sushitamarestaurant"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/sushitama_tama"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/sushitamarestaurant"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-yelp"href="http://Yelp.com/biz/sushi-tama-tacoma-2">Yelp<i class="fa fa-yelp"></i></a>
+                    </div> 
                 <div class="col-4 col-sm-2 offset-1">
                     <button type="button" class="btn btn-danger">253-761-1014</button>    
                 </div>
@@ -195,10 +201,10 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#appetizers").click(function(){
+            $("#appetizers").dropdown(function(){
                 $("#app").collapse("show");
                     });
-            $("#sushisashimi").click(function(){
+            $("#sushisashimi").dropdown(function(){
                 $("#sushis").collapse("show");
                     });
             $("#sushiroll").click(function(){
