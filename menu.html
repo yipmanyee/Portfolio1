@@ -29,19 +29,10 @@
             <div class="col-4 col-sm-3 col-md-2 align-right">
                 <a role ="button" class="btn btn-danger" href="tel:+12537611014"><i class="fa fa-phone fa-lg text-white"></i>253-761-1014</a>
             </div>
-            
         </div>
     </div>
     </header>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                
-            </div>
-        </div>
-    </div>
-
+    
     <nav class="navbar navbar-expand-sm navbar-dark bg-red sticky-top">
         <div class="container">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#stNavbar">
@@ -65,89 +56,130 @@
 
     <div class="container">
         <div class="row row-content">
-            <div class="col-6">
+            <div class="col-12">
                 <h2>Menu</h2>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item"><a class="nav-link-active" href="#appetizers" role="tab" data-toggle="tab">Appetizers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sushisashimi" role="tab" data-toggle="tab">Sushi & Sashimi Entree</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sushiroll" role="tab" data-toggle="tab">Sushi Roll</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#nigiri" role="tab" data-toggle="tab">Nigiri or Sashimi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#lunch" role="tab" data-toggle="tab">Lunch Entrees</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#dinner" role="tab" data-toggle="tab">Dinner Entrees</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade show active" id="appetizers">
-                        <h3>Appetizers</h3>
-                        <p>Sushi Tama Deluxe Salad<small> - Our special house salad topped with select pieces of sashimi, avocado, and cucumber </small></p>
-                        <p>Sashimi Apprtizer<small> - Chef’s choice of assorted sashimi </small><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></p>
-                        <p>Beef Negimaki<small> - Fresh green onions wrapped in thinly sliced beef covered with teriyaki sauce </small></p>
-                        <p>Tempura Appetizer<small> - 2 shrimp and 6 vegetables dipped in batter and fried </small><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></p>
-                        <p>Gyoza<small> -Japanese style pot sticker  ( pan fried, deep fried or spicy) </small></p>
-                        <p>Yakitori<small> - Grilled chicken skewers brushed with teriyaki sauce </small></p>
-                        <p>Agedashi Tofu<small> - Deep fried tofu with special  broth  topped  with grated daikon and scallion </small></p>
-                        <p>Soft Shell Crab<small> - Deep Fried Soft shell crab </small></p>
-                        <img id="app" src="img/Tempura Appetizer.jfif"class="img-fluid" alt="Tempura Appetizer" />
+                <p>Our menu showcases a fusion of traditional Japanese dishes with modern innovative trends using fresh and quality ingredients. An ever-evolving selection of appetizers, entrees and sushi specials will guarantee you a truly authentic Japanese dining experience.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a data-toggle="collapse" data-target="#appetizers">Appetizers</a>
+                            </h3>
+                            <div class="collapse" id="appetizers" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Sushi Tama Deluxe Salad<small> - Our special house salad topped with select pieces of sashimi, avocado, and cucumber </small></p>
+                                    <p>Sashimi Apprtizer<small> - Chef’s choice of assorted sashimi </small><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></p>
+                                    <p>Beef Negimaki<small> - Fresh green onions wrapped in thinly sliced beef covered with teriyaki sauce </small></p>
+                                    <p>Tempura Appetizer<small> - 2 shrimp and 6 vegetables dipped in batter and fried </small><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></p>
+                                    <p>Gyoza<small> -Japanese style pot sticker  ( pan fried, deep fried or spicy) </small></p>
+                                    <p>Yakitori<small> - Grilled chicken skewers brushed with teriyaki sauce </small></p>
+                                    <p>Agedashi Tofu<small> - Deep fried tofu with special  broth  topped  with grated daikon and scallion </small></p>
+                                    <p>Soft Shell Crab<small> - Deep Fried Soft shell crab </small></p>
+                                    <img id="app" src="img/Tempura Appetizer.jfif"class="img-fluid" alt="Tempura Appetizer" />
+                                </div>   
+                            </div> 
+                        </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane fade" id="sushisashimi">
-                        <h3>Sushi & Sashimi Entrees</h3>
-                        <p>San Shoku Roll<small> - 8 pieces of California Roll, 6 pieces of Tuna Roll, and 6 pieces of Cucumber Roll</small></p>
-                        <p>Nami<small> - 7 pieces of assorted of nigiri, three pieces of Tuna roll, and 3 pieces of cucumber roll</small></p>
-                        <p>Jyo<small> - 8 pieces of assorted of nigiri, 3 pieces of tuna roll and cucumber roll, and 4 pieces of  California roll.</small></p>
-                        <p>Sashimi Entree<small> - Chef’s select choice of assorted sashimi, served with a side of steamed rice.</small></p>
-                        <p>Sushi & Sashimi Entree<small> - 5 pieces of assorted of nigiri, 4 pieces of California roll, 3 pieces of tuna roll, and Chef’s choice of assorted sashimi</small></p>
-                        <p>Chirashi Zushi<small> - Chef’s choice of assorted sashimi placed on a bed of sushi rice.</small></p>
-                        <img id="sushir" src="img/Platter 2.jpg" class="img-fluid" alt="Sushi Platter" />
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a class="collapsed" data-toggle="collapse" data-target="#sushisashimi">Sushi & Sashimi Entrees</a>
+                            </h3>
+                            <div class="collapse" id="sushisashimi" data-parent="#accordion">    
+                                <div class="card-body">
+                                    <p>San Shoku Roll<small> - 8 pieces of California Roll, 6 pieces of Tuna Roll, and 6 pieces of Cucumber Roll</small></p>
+                                    <p>Nami<small> - 7 pieces of assorted of nigiri, three pieces of Tuna roll, and 3 pieces of cucumber roll <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></small></p>
+                                    <p>Jyo<small> - 8 pieces of assorted of nigiri, 3 pieces of tuna roll and cucumber roll, and 4 pieces of  California roll <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></small></p>
+                                    <p>Sashimi Entree<small> - Chef’s select choice of assorted sashimi, served with a side of steamed rice </small></p>
+                                    <p>Sushi & Sashimi Entree<small> - 5 pieces of assorted of nigiri, 4 pieces of California roll, 3 pieces of tuna roll, and Chef’s choice of assorted sashimi </small></p>
+                                    <p>Chirashi Zushi<small> - Chef’s choice of assorted sashimi placed on a bed of sushi rice </small></p>
+                                    <img id="sushir" src="img/Chirashi Zushi.jfif" class="img-fluid" alt="Chirashi Sushi" />
+                                </div>    
+                            </div>    
+                        </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane fade" id="sushiroll">
-                        <h3>Sushi Roll</h3>
-                        <p>Rainbow Roll<small> - A ”Krab” roll wrapped with Chef’s choice of colorful fish.</small></p>
-                        <p>Hokkai Roll<small> - Salmon, Salmon roe, Albacore tuna and radish sprouts</small></p>
-                        <p>Orange Roll<small> -California roll covered with orange fish roe.</small></p>
-                        <p>Tekka Maki<small> - Fresh tuna in a roll</small></p>
-                        <p>Spicy Tuna Roll<small> - Fresh tuna with jalapeños and special spicy sauce.</small></p>
-                        <p>Veggie Tempura Roll<small> - Choose from crispy tempura sweet potato or carrot.</small></p>
-                        <img id="sushis" src="img/Chirashi Zushi.jfif" class="img-fluid" alt="Chirashi Sushi" />
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a class="collapsed" data-toggle="collapse" data-target="#sushiroll">Sushi Roll</a>
+                            </h3>
+                            <div class="collapse" id="sushiroll" data-parent="#accordion"> 
+                                <div class="card-body">
+                                    <p>Rainbow Roll<small> - A ”Krab” roll wrapped with Chef’s choice of colorful fish <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></small></p>
+                                    <p>Hokkai Roll<small> - Salmon, Salmon roe, Albacore tuna and radish sprouts <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></small></p>
+                                    <p>Orange Roll<small> -California roll covered with orange fish roe </small></p>
+                                    <p>Tekka Maki<small> - Fresh tuna in a roll </small></p>
+                                    <p>Spicy Tuna Roll<small> - Fresh tuna with jalapeños and special spicy sauce </small></p>
+                                    <p>Veggie Tempura Roll<small> - Choose from crispy tempura sweet potato or carrot </small></p>
+                                    <img id="sushis" src="img/Special Occassion Platter.jfif" class="img-fluid" alt="Sushi Platter" />
+                                </div>
+                            </div>    
+                        </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane fade" id="nigiri">
-                        <h3>Nigiri or Sashimi</h3>
-                        <p>Tuna (Maguro)</p>
-                        <p>Yellow Tail (Hamachi)</p>
-                        <p>Sweet Shrimp (Ama Ebi)</p>
-                        <p>Scallop (Hotate Gai)</p>
-                        <p>Salmon (Sake)</p>
-                        <p>Macherel (Saba)</p>
-                        <p>Squid (Ika)</p>
-                        <p>Crab (Kani)</p>
-                        <p>Freshwater Eel (Unagi)</p>
-                        <p>Egg (Tamago)</p>
-                        <img id="nigi" src="img/Sushi Entree.jfif" class="img-fluid" alt="Salmon Nigiri" />
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a class="collapsed" data-toggle="collapse" data-target="#nigiri">Nigiri or Sashimi</a>
+                            </h3>
+                            <div class="collapse" id="nigiri" data-parent="#accordion"> 
+                                <div class="card-body">
+                                    <p>Tuna (Maguro)</p>
+                                    <p>Yellow Tail (Hamachi)</p>
+                                    <p>Sweet Shrimp (Ama Ebi)</p>
+                                    <p>Scallop (Hotate Gai)</p>
+                                    <p>Salmon (Sake)</p>
+                                    <p>Macherel (Saba)</p>
+                                    <p>Squid (Ika)</p>
+                                    <p>Crab (Kani)</p>
+                                    <p>Freshwater Eel (Unagi)</p>
+                                    <p>Egg (Tamago)</p>
+                                    <img id="nigi" src="img/Sushi Entree.jfif" class="img-fluid" alt="Sushi Entree" />
+                                </div>   
+                            </div>     
+                        </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane fade" id="lunch">
-                        <h3>Lunch Entrees</h3>
-                        <p>Lunch Combo 1<small> - Yakisoba served with Gyoza</small></p>
-                        <p>Lunch Combo 2<small> - Chicken Teriyaki served with Tempura, miso soup and rice</small></p>
-                        <p>Teriyaki Chicken<small> - served with salad, miso soup and rice</small></p>
-                        <p>Tempura Lunch<small> - served with salad, miso soup and rice</small></p>
-                        <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce</small> </p>
-                        <p>Curry Udon<small> - with your choice of chicken or pork katsu</small></p>
-                        <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice</small></p>
-                        <img id="lch" src="img/Nabeyaki Udon.jfif" class="img-fluid" alt="Nabeyaki Udon" />
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a class="collapsed" data-toggle="collapse" data-target="#lunch">Lunch Entrees</a>
+                            </h3>
+                            <div class="collapse" id="lunch" data-parent="#accordion"> 
+                                <div class="card-body">
+                                    <p>Lunch Combo 1<small> - Yakisoba served with Gyoza </small></p>
+                                    <p>Lunch Combo 2<small> - Chicken Teriyaki served with Tempura, miso soup and rice </small></p>
+                                    <p>Teriyaki Chicken<small> - served with salad, miso soup and rice </small></p>
+                                    <p>Tempura Lunch<small> - served with salad, miso soup and rice <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i> </small></p>
+                                    <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce </small> </p>
+                                    <p>Curry Udon<small> - with your choice of chicken or pork katsu </small></p>
+                                    <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice </small></p>
+                                    <img id="lch" src="img/Nabeyaki Udon.jfif" class="img-fluid" alt="Nabeyaki Udon" />
+                                </div>
+                            </div>    
+                        </div>
                     </div>
 
-                    <div role="tabpanel" class="tab-pane fade" id="dinner">
-                        <h3>Dinner Entrees</h3>
-                        <p>Dinner Combo 1<small> - Chicken teriyaki, tempura and half California Roll</small></p>
-                        <p>Dinner Combo 2<small> - Pork Cutlet, tempura and half California Roll</small></p>
-                        <p>Teriyaki Chicken<small> - served with salad, miso soup and rice</small></p>
-                        <p>Saba Shio<small> - Cooked Salted Mackerel, served with miso soup and rice</small></p>
-                        <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce</small> </p>
-                        <p>Curry Rice<small> - with your choice of chicken or pork katsu</small></p>
-                        <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice</small></p>
-                        <img id="dnr" src="img/Dinner Combo 3.jfif" class="img-fluid" alt="Dinner Combo" />
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h3>
+                                <a class="collapsed" data-toggle="collapse" data-target="#dinner">Dinner Entrees</a>
+                            </h3>
+                            <div class="collapse" id="dinner" data-parent="#accordion"> 
+                                <div class="card-body">
+                                    <p>Dinner Combo 1<small> - Chicken teriyaki, tempura and half California Roll </small></p>
+                                    <p>Dinner Combo 2<small> - Pork Cutlet, tempura and half California Roll </small></p>
+                                    <p>Teriyaki Chicken<small> - served with salad, miso soup and rice </small></p>
+                                    <p>Saba Shio<small> - Cooked Salted Mackerel, served with miso soup and rice </small></p>
+                                    <p>Ten Zaru Soba<small> - Tempura with cold soba in dipping sauce <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></small> </p>
+                                    <p>Curry Rice<small> - with your choice of chicken or pork katsu </small></p>
+                                    <p>Beef Donburi<small> - A bowl of Sukiyak Beef on top of rice </small></p>
+                                    <img id="dnr" src="img/Dinner Combo 3.jfif" class="img-fluid" alt="Dinner Combo" />
+                                </div>
+                            </div>    
+                        </div>
                     </div>
             </div>
 
